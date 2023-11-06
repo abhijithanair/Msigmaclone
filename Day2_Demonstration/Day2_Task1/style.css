@@ -1,0 +1,45 @@
+.addsubbutton {
+  display: flex;
+}
+#increment,
+#decrement {
+  margin-right: 5px;
+  padding: 10px 15px;
+  font-size: larger;
+}
+.circlerow {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.circlerow1,
+.circlerow2,
+.circlerow3,
+.circlerow4,
+.circlerow5 {
+  display: flex;
+}
+
+.circle {
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.circlecoloredrow1 .circle {
+  background-color: red;
+}
+.circlecoloredrow2 .circle {
+  background-color: orange;
+}
+.circlecoloredrow3 .circle {
+  background-color: yellow;
+}
+.circlecoloredrow4 .circle {
+  background-color: yellowgreen;
+}
+.circlecoloredrow5 .circle {
+  background-color: green;
+}

@@ -1,0 +1,72 @@
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.maincontainer{
+max-width : 100%;
+}
+.contacts img{
+height:15px;
+width:15px;
+margin-top: 14px;
+padding-right: 5px;
+}
+.contacts{
+    background-color: rgb(234, 234, 234);
+    height:25px;
+    display: flex;
+    font-size: small;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+
+}
+.follow{
+    display: flex;
+}
+.phone{
+    display: flex;
+}
+.mail{
+    display: flex;
+}
+.navbar{
+    background-color: white;
+    display: flex;
+    width:100%;
+    justify-content: center;
+    top: 0;
+}
+.logo{
+    width: 293px;
+    height: 76px;
+    margin-right: 20px;
+}
+.navbar a{
+margin-top: 5px;
+float:left;
+color:black;
+text-align: end;
+padding: 14px 16px;
+text-decoration: none;
+line-height: 28.48px;
+letter-spacing: 2%;
+font-weight: 500;
+font-size: 17px;
+}
+
+.navbar a:hover{
+background-color: rgb(189, 189, 189);
+}
+
+#selected{
+    color: rgb(232, 39, 39);
+}
+.header{
+    position: fixed;
+    z-index: 999;
+    width:100%;
+    top:0;
+    padding-top: 5px;
+
+}
